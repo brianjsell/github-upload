@@ -1,0 +1,158 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+
+
+
+body {
+	background-color:black;
+	font-size:100%;
+	color:white;
+	text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+	height: auto;
+	width: 98%;
+	margin: 1%;
+
+}
+
+.header {
+	border:5px aqua solid;
+}
+
+.navbar {
+	display:inline;
+    margin-top:10px;
+	margin-bottom:10px;
+	}
+
+.navbar1 {
+	display:inline;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+
+.container {
+	border:5px aqua solid;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
+
+}
+
+.textcontainer {
+	border-left:5px aqua solid;
+	border-right:5px aqua solid;
+}
+
+.box {
+	/*max-height:500px;*/
+	min-height: 360px;
+	/*max-width:500px;*/
+	min-width: 360px;
+	margin:10px;
+	border:3px aqua solid;
+	box-shadow:5px 5px blue;	
+}
+
+.box #textbox {
+	text-align: left;
+	padding: 0.5em;
+	height: auto;
+	width: auto;
+}
+
+.footer {
+	border:5px aqua solid;
+	height: auto;
+	width:100%;
+}
+
+.button{
+	background-color:#CCCCCC;
+	margin:1%;
+	width:20%;
+	height:5%;
+	border:3px grey solid;
+	box-shadow:5px 5px aqua;
+	color:black;
+	
+
+	
+}
+
+.button:visited{
+	background-color:#666666;
+	border:5px #999999 solid;
+	box-shadow:none;
+	color:red;
+	}
+
+.button:hover{
+	background-color:#FFFFFF;
+	border:4px #CCCCCC solid; 
+	transition-duration:.1s;
+	transform:scale(1.2,1.2);
+	color:red;
+	}
+
+.button:active{
+	transform:translate(3px,3px);
+	background-color:#666666;
+	border:5px #999999 solid;
+	box-shadow:none;
+	color:red;
+	}
+.container#shrink:hover{
+		transition-duration:3s;
+	transform:scale(1.5,1.5);		}
+	
+#imageskew:hover{	
+/*	transform: perspective(500px) scaleZ(5) rotateX(-45deg);   */
+	
+	  }	
+.box:hover{
+	background-color:#CCCCCC;
+	border:5px red solid;
+	box-shadow:6px 6px aqua;
+	color:black;
+	}
+	
+p {
+	width:100%;
+	font-size:large;
+	margin: 0;
+}
+
+h1 {
+	font-size:2.5em;
+	font-weight:bold;
+	margin:0;
+	}
+	
+h2 {
+	font-size:1.875em; 
+	font-weight:bold;
+	margin:0;
+	}
+
+h3 {
+	font-size:1.5em;
+	margin:0;
+}
+
+a:hover{
+	color:red;
+}
+
+.header:hover{
+	border:5px red solid;
+}
+
+a:link{
+	color:lime;
+}
